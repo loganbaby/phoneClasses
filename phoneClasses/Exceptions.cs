@@ -19,4 +19,4 @@ namespace Exceptions
 
         protected static string throwWrongPhoneString() { return "Exception: wrong phone number!"; }
     }
-}
+}     //namespace Exceptions

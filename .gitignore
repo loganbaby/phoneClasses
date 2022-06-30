@@ -1,4 +1,3 @@
 logs/*.log
 !logs/errors.log
-.vs/
 packages/
