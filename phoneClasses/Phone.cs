@@ -207,5 +207,15 @@ namespace phoneClasses
                     break;
             }
         }
+
+        public static void showPhoneBook()
+        {
+            int counter = 1;
+            foreach(var contact in phoneMap)
+            {
+                System.Console.WriteLine(counter + "# " + contact.Key + " - " + contact.Value);
+                ++counter;
+            }
+        }
     }
 }    //namespace phoneClasses
