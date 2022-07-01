@@ -1,3 +1,6 @@
 logs/*.log
 !logs/errors.log
 packages/
+bin/
+obj/
+*.csproj
