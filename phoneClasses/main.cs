@@ -7,6 +7,7 @@
             ADD = 1,
             CALL,
             SMS,
+            SHOW,
             EXIT
         }
 
@@ -16,6 +17,7 @@
             System.Console.WriteLine(System.Convert.ToUInt16(MenuCommand.ADD) + "# Add phone number");
             System.Console.WriteLine(System.Convert.ToUInt16(MenuCommand.CALL) + "# Call to phone number");
             System.Console.WriteLine(System.Convert.ToUInt16(MenuCommand.SMS) + "# Sms to phone number");
+            System.Console.WriteLine(System.Convert.ToUInt16(MenuCommand.SHOW) + "# Show all contact list");
             System.Console.WriteLine(System.Convert.ToUInt16(MenuCommand.EXIT) + "# Exit");
             System.Console.Write(">>> ");
             return (MenuCommand)System.Convert.ToUInt16(System.Console.ReadLine());
@@ -36,6 +38,9 @@
                         break;
                     case MenuCommand.SMS:
                         Phone.sms();
+                        break;
+                    case MenuCommand.SHOW:
+                        Phone.showPhoneBook();
                         break;
                     case MenuCommand.EXIT:
                         return 1;

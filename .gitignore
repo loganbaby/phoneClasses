@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 logs/*.log
 !logs/errors.log
 packages/
@@ -7,3 +8,13 @@ obj/
 *.sln
 *.config
 *.vsidx
+=======
+*.sln
+*.config
+packages/
+bin/
+obj/
+.vs/
+*.config
+*.csproj
+>>>>>>> show-contacts
