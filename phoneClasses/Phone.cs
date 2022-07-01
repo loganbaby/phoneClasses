@@ -210,12 +210,27 @@ namespace phoneClasses
 
         public static void showPhoneBook()
         {
-            int counter = 1;
-            foreach(var contact in phoneMap)
+            try
             {
-                System.Console.WriteLine(counter + "# " + contact.Key + " - " + contact.Value);
-                ++counter;
+                if (Exceptions.DictionaryExtentions.IsNullOrEmpty(phoneMap))
+                {
+                    throw new Exception(Exceptions.DictionaryExtentions.throwNullOrEmptyString());
+                }
+
+                int counter = 1;
+                foreach (var contact in phoneMap)
+                {
+                    System.Console.WriteLine(counter + "# " + contact.Key + " - " + contact.Value);
+                    ++counter;
+                }
             }
+
+            catch(Exception x)
+            {
+                System.Console.WriteLine(x.Message);
+            }
+
+            System.Console.WriteLine("Press 'Enter' to continue...");
         }
     }
 }    //namespace phoneClasses
