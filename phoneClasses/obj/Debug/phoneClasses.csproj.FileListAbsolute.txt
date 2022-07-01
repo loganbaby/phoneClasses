@@ -1,8 +1,0 @@
-C:\Users\logbaby\Desktop\C#\phoneClasses\phoneClasses\bin\Debug\phoneClasses.exe.config
-C:\Users\logbaby\Desktop\C#\phoneClasses\phoneClasses\bin\Debug\phoneClasses.exe
-C:\Users\logbaby\Desktop\C#\phoneClasses\phoneClasses\bin\Debug\phoneClasses.pdb
-C:\Users\logbaby\Desktop\C#\phoneClasses\phoneClasses\obj\Debug\phoneClasses.csproj.AssemblyReference.cache
-C:\Users\logbaby\Desktop\C#\phoneClasses\phoneClasses\obj\Debug\phoneClasses.csproj.SuggestedBindingRedirects.cache
-C:\Users\logbaby\Desktop\C#\phoneClasses\phoneClasses\obj\Debug\phoneClasses.csproj.CoreCompileInputs.cache
-C:\Users\logbaby\Desktop\C#\phoneClasses\phoneClasses\obj\Debug\phoneClasses.exe
-C:\Users\logbaby\Desktop\C#\phoneClasses\phoneClasses\obj\Debug\phoneClasses.pdb

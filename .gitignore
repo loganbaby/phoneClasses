@@ -1,3 +1,7 @@
 *.sln
 *.config
 packages/
+bin/
+obj/
+*.config
+*.csproj
